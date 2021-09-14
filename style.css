@@ -1,0 +1,294 @@
+body {
+    background-color: #778899;
+    font-family     : Verdana, Arial, Helvetica, sans-serif;
+    line-height     : 120%;
+    margin          : 0;
+    padding         : 0;
+  }
+  
+  .List p {
+      padding      : 5px;
+      border       : 1px solid #d2d2d2;
+      border-radius: 5px;
+  }
+  
+  
+  .center-div {
+      /*text-align:center;*/
+      text-align: left;
+  }
+  .center-div h4{
+      display      : inline-block;
+      border       : 1px solid;
+      padding      : 10px;
+      border-radius: 5px;
+  }
+  
+  .center{
+      display      : inline-block;
+      border       : 1px solid;
+      padding      : 10px;
+      border-radius: 5px;
+  }   
+  
+  .gray{
+      /*background-color:darkgray;*/ 
+      background-color: LightBlue;
+      padding         : 7px;
+      border          : 1px solid #999;
+      border-radius   : 5px;
+  }
+  
+  .lightgray{
+      background-color: #D4D4D4;
+  }
+  
+  .hd{
+      visibility: hidden;
+  }
+  
+  .imgleft{
+      float : left;
+      margin: 0 15px 15px 0;
+  }
+  
+  .more, .info{ 
+      cursor: pointer;
+  }
+  
+  
+  a{
+      color: MidnightBlue;
+  }
+  
+  h4 {
+      margin-top    : 15px;
+      padding-top   : 5px;
+      padding-bottom: 5px;
+  }
+  table{
+      border-spacing: 0px 10px;
+      margin-bottom : 20px;
+  }
+  
+  td, th{
+      padding-left  : 10px;
+      vertical-align: top;
+  }
+  
+  /* .zebra */
+  .zebra tr:nth-child(2n+1){
+      background-color: #D4D4D4;
+  }
+  .zebra2 tr:nth-child(2n){
+      background-color: #D4D4D4;
+  }
+  /* /.zebra */
+  
+  table.simple_table {
+      /* border-top: 1px solid; */
+  }
+  .simple_table td{
+      border-top    : 1px solid grey;
+      padding       : 10px;
+      text-align    : left;
+      vertical-align: middle;
+  }
+  .simple_table th {
+      text-align    : center;
+      border-top    : 1px solid grey;
+      padding       : 10px;
+      vertical-align: middle;
+  }
+  
+  blockquote{
+      box-shadow      : 0 0 3px 3px;
+      font-size       : 0.8em;
+      background-color: Beige;
+      margin-left     : 770px;
+      margin-right    : 10px;
+      margin-top      : -80px;
+      position        : absolute;
+      width           : 200px;
+  }
+  
+  
+  #container {
+    box-shadow      : 0 0 5px 2px;
+    background-color: #F8F8FF;
+    margin          : -20px auto 0 auto;
+    width           : 100%;
+    max-width       : 1000px;
+  }
+  
+  /* header */
+  header {
+      /*background-color:black; */
+      background-color: DarkSlateGray;
+      color           : white;
+      
+  }
+      header h1{
+          font-style    : italic;
+          padding-bottom: 25px;
+          padding-left  : 200px;
+          padding-top   : 25px;
+      }
+  /* /header */
+      
+  #logo{	
+      background     : url("image/logo.jpg") no-repeat scroll;
+      background-size: contain;
+      box-shadow     : 7px 7px 5px rgba(0,0,0,0.6);
+      height         : 104px;
+      margin-left    : 20px;
+      margin-top     : 10px;
+      position       : absolute;
+      width          : 135px;
+      margin-right   : 50px;
+  }
+
+  #logoContact{
+    background     : url("image/Sanya.jpg") no-repeat scroll;
+    background-size: contain;
+    box-shadow     : 7px 7px 5px rgba(0,0,0,0.6);
+    height         : 104px;
+    margin-left    : 20px;
+    margin-top     : 10px;
+    position       : absolute;
+    width          : 135px;
+    margin-right   : 50px;
+  }
+  
+  /* nav */
+  nav ul {
+      margin-left: 150px;
+  }
+      nav ul li{
+          float          : left;
+          font-size      : small;
+          list-style-type: square;
+          margin         : 0px;
+          padding-left   : 0px;
+          padding-right  : 20px;
+      }
+  /* /nav */
+      
+  main {
+    border-right-style: solid;
+    border-right-width: 1px;
+    clear             : both;
+    float             : left;
+    margin-top        : 5px;
+    padding           : 0 10px 0 10px;
+    text-align        : justify;
+    width             : 75%;
+  }
+  
+   main.full {
+    border-right-style: none;
+    clear             : both;
+    margin-left       : 5px;
+    margin-top        : 5px;
+    padding           : 0 20px 0 10px;
+    text-align        : justify;
+    width             : 100%;
+  }
+  
+  aside{
+    float       : right;
+    margin-top  : 5px;
+    padding-left: 5px;
+    /*padding-left: 755px;*/
+    width: 250px;
+  }
+  
+  #photo{
+      text-align: center;
+  }
+  
+  .empty_list{
+      list-style-type: none;
+      margin-bottom  : 20px;
+      padding-left   : 20px;
+  }
+  
+  .bold_list{
+      list-style-type: none;
+      margin-bottom  : 20px;
+      padding-left   : 20px;
+      font-weight    : bold;
+  }
+  
+  .empty_list li{
+      margin-top: 10px;
+  }
+  
+  #myname {
+      box-shadow      : inset 0 0 2px 1px;
+      background-color: LightBlue;
+      margin-bottom   : 10px;
+      padding-bottom  : 10px;
+      margin-right    : 5px;
+      text-align      : center;
+  }
+  /* #myname h4{ */
+      /* font-style:italic; */
+  /* } */
+  
+  .attention {
+      font-weight: bold;
+      color      : red;
+  }
+  footer{
+      background-color: DarkSlateGray;
+      clear           : both;
+      color           : white;
+      font-size       : small;
+      margin-top      : 5px;
+      text-align      : center;
+  }
+  
+  hr {
+      color           : black;
+      background-color: black;
+      height          : 1px;
+  }
+  
+  .post-preview {
+      border-bottom: 2px dashed #ddd;
+  }
+  
+  .post-preview:last-child {
+      border-bottom: none;
+  }
+  
+  .Beige {
+      background-color: Beige;
+  }
+  
+  @media screen and (max-width:650px) {
+      h1 {
+          font-size   : 30px;
+          padding-left: 165px !important;
+      }
+      #logo{
+          margin-left : 5px;
+          margin-right: 10px;
+      }
+  }
+  
+  @media screen and (max-width:529px) {
+      header h1{
+          padding-top   : 10px;
+          padding-bottom: 10px;
+      }
+  }
+  
+  @media screen and (max-width:345px) {
+      h1 {
+          font-size: 25px;
+      }
+  }
+  
+  
